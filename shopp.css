@@ -63,8 +63,10 @@ header{
     background: var(--bg-color);
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     transition: 0.3s;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     white-space: nowrap;
+    max-height: 100px;
 }
 .cart.active{
     right: 0;
